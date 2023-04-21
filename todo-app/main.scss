@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 60%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+input:focus,
+.paragraf:focus {
+  outline: none;
+}
+
+input[type="text"],
+.paragraf {
+  min-width: 100px;
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"],
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"] {
+  background-color: #4285f4;
+  color: #fff;
+  margin-left: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #357ae8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.check {
+  margin-right: 10px;
+}
+
+.task {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+}
+.paragraf {
+  margin-right: 10px;
+}
+.btns {
+  max-width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.del,
+.edit,
+.save,
+.cancel {
+  padding: 5px 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-right: 5px;
+}
+.edit {
+  background: rgb(134, 232, 36);
+}
+.del {
+  background-color: #f44336;
+}
+.save {
+  background-color: #47eafc;
+}
+.cancel {
+  background-color: #fdc033;
+}
+
+button {
+  transition: all 0.2s linear;
+}
+button:hover {
+  box-shadow: 1px 1px 5px gray;
+}
+
+#clear-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+}
