@@ -17,6 +17,7 @@
   <p>Table of Contents</p>
   <ol>   
     <li><a href="#to-do-app">To do app</a></li>
+    <li><a href="#stopwatch-app">Stopwatch app</a></li>
   </ol>
 
 <div id="to-do-app"></div>
@@ -24,6 +25,12 @@
 # To do app
 
 ![To do app](readme-source/chrome_SA31proGhr.gif)
+
+<div id="#stopwatch-app"></div>
+
+# Stopwatch app
+
+![Stopwatch app](readme-source/chrome_SLhAxFmGbU.gif)
 
 # Contact
 

@@ -1,0 +1,90 @@
+$bg-color: #f4f4f4;
+$font-color: #333;
+
+body {
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: $bg-color;
+  border-radius: 10px;
+  width: 70%;
+
+  .timer-display {
+    margin-bottom: 2rem;
+    font-family: Arial, sans-serif;
+    color: $font-color;
+  }
+
+  .timer-controls {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+    button {
+      font-size: 1rem;
+      padding: 1rem 2rem;
+      border: 1px solid $font-color;
+      border-radius: 5px;
+      background-color: white;
+      color: $font-color;
+      font-family: Arial, sans-serif;
+      transition: all 0.3s ease;
+
+      &:hover {
+        cursor: pointer;
+        color: white;
+      }
+
+      &:active {
+        transform: translateY(2px);
+      }
+
+      &.start {
+        border-color: green;
+        color: green;
+        &:hover {
+          background-color: green;
+          color: white;
+        }
+        &.active {
+          background-color: green;
+          color: white;
+        }
+      }
+
+      &.stop {
+        border-color: red;
+        color: red;
+        &:hover {
+          background-color: red;
+          color: white;
+        }
+        &.active {
+          background-color: red;
+          color: white;
+        }
+      }
+
+      &.reset {
+        border-color: gray;
+        color: gray;
+        &:hover {
+          background-color: gray;
+          color: white;
+        }
+        &.active {
+          background-color: gray;
+          color: white;
+        }
+      }
+    }
+  }
+}

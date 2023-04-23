@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  width: 70%;
+}
+.timer .timer-display {
+  margin-bottom: 2rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.timer .timer-controls {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.timer .timer-controls button {
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: white;
+  color: #333;
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease;
+}
+.timer .timer-controls button:hover {
+  cursor: pointer;
+  color: white;
+}
+.timer .timer-controls button:active {
+  transform: translateY(2px);
+}
+.timer .timer-controls button.start {
+  border-color: green;
+  color: green;
+}
+.timer .timer-controls button.start:hover {
+  background-color: green;
+  color: white;
+}
+.timer .timer-controls button.start.active {
+  background-color: green;
+  color: white;
+}
+.timer .timer-controls button.stop {
+  border-color: red;
+  color: red;
+}
+.timer .timer-controls button.stop:hover {
+  background-color: red;
+  color: white;
+}
+.timer .timer-controls button.stop.active {
+  background-color: red;
+  color: white;
+}
+.timer .timer-controls button.reset {
+  border-color: gray;
+  color: gray;
+}
+.timer .timer-controls button.reset:hover {
+  background-color: gray;
+  color: white;
+}
+.timer .timer-controls button.reset.active {
+  background-color: gray;
+  color: white;
+}
