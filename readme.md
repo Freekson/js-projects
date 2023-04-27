@@ -18,6 +18,7 @@
   <ol>   
     <li><a href="#to-do-app">To do app</a></li>
     <li><a href="#stopwatch-app">Stopwatch app</a></li>
+    <li><a href="#currency-converter">Currency converter</a></li>
   </ol>
 
 <div id="to-do-app"></div>
@@ -31,6 +32,12 @@
 # Stopwatch app
 
 ![Stopwatch app](readme-source/chrome_SLhAxFmGbU.gif)
+
+<div id="#currency-converter"></div>
+
+# Сurrency converter
+
+![Сurrency converter](readme-source/chrome_pq9YJ1ose9.gif)
 
 # Contact
 

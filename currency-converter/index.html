@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Currency converter</title>
+    <link rel="stylesheet" type="text/css" href="./dist/main.css" />
+  </head>
+  <body>
+    <h1>Currency converter</h1>
+    <div class="container">
+      <div class="input-container">
+        <label for="from">From currency:</label>
+        <select id="from">
+          <option value="UAN">Гривня</option>
+        </select>
+        <input
+          type="number"
+          id="amount"
+          placeholder="Enter the amount"
+          value="1"
+        />
+      </div>
+      <div class="input-container">
+        <label for="to">To currency:</label>
+        <select id="to"></select>
+        <input type="number" id="converted-amount" readonly />
+      </div>
+    </div>
+    <p>Curse for now: <span id="curse">0</span></p>
+    <p class="warningn none">Your data is incorrect</p>
+    <button id="convert">Convert</button>
+    <script src="./script.js"></script>
+  </body>
+</html>
