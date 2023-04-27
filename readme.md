@@ -27,13 +27,13 @@
 
 ![To do app](readme-source/chrome_SA31proGhr.gif)
 
-<div id="#stopwatch-app"></div>
+<div id="stopwatch-app"></div>
 
 # Stopwatch app
 
 ![Stopwatch app](readme-source/chrome_SLhAxFmGbU.gif)
 
-<div id="#currency-converter"></div>
+<div id="currency-converter"></div>
 
 # Сurrency converter
 
