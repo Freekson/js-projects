@@ -19,6 +19,7 @@
     <li><a href="#to-do-app">To do app</a></li>
     <li><a href="#stopwatch-app">Stopwatch app</a></li>
     <li><a href="#currency-converter">Currency converter</a></li>
+    <li><a href="#weather-app">Weather app</a></li>
   </ol>
 
 <div id="to-do-app"></div>
@@ -38,6 +39,12 @@
 # Сurrency converter
 
 ![Сurrency converter](readme-source/chrome_pq9YJ1ose9.gif)
+
+<div id="weather-app"></div>
+
+# Weather app
+
+![Weather app](readme-source/chrome_fsgsYYgoRQ.gif)
 
 # Contact
 
