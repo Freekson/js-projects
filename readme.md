@@ -20,6 +20,7 @@
     <li><a href="#stopwatch-app">Stopwatch app</a></li>
     <li><a href="#currency-converter">Currency converter</a></li>
     <li><a href="#weather-app">Weather app</a></li>
+    <li><a href="#countdown">Countdown to date</a></li>
   </ol>
 
 <div id="to-do-app"></div>
@@ -45,6 +46,12 @@
 # Weather app
 
 ![Weather app](readme-source/chrome_fsgsYYgoRQ.gif)
+
+<div id="countdown"></div>
+
+# Countdown
+
+![countdown](readme-source/chrome_2ESF3UJBBf.gif)
 
 # Contact
 
